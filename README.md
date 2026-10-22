@@ -4,16 +4,14 @@
 
 ### End-to-end operational management for workflows, administration, tracking and reporting
 
-<a href="https://github.com/tahakubilay/mes-management-platform">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=900&center=true&vCenter=true&width=760&lines=Operations+%E2%86%92+Tracking+%E2%86%92+Reporting;Centralized+business+workflow+management;Built+around+real-world+operational+needs" alt="Animated project overview" />
-</a>
+<img src="./assets/hero.svg" alt="Animated project header" />
 
 <br/>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Taha%20Kubilay-181717?style=for-the-badge&logo=github)](https://github.com/tahakubilay)
 [![Repository](https://img.shields.io/badge/Repository-MES%20Platform-0A66C2?style=for-the-badge&logo=github)](https://github.com/tahakubilay/mes-management-platform)
-[![Status](https://img.shields.io/badge/Status-Portfolio%20Build-7C3AED?style=for-the-badge)](#-project-status)
-[![Demo](https://img.shields.io/badge/Live%20Demo-Coming%20Soon-F59E0B?style=for-the-badge&logo=vercel)](#-live-demo)
+![Status](https://img.shields.io/badge/Status-Portfolio%20Build-7C3AED?style=for-the-badge)
+![Demo](https://img.shields.io/badge/Live%20Demo-Coming%20Soon-F59E0B?style=for-the-badge&logo=vercel)
 
 <br/>
 
