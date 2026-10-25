@@ -2,83 +2,28 @@
 
 # MES Management Platform
 
-### End-to-end operational management for workflows, administration, tracking and reporting
+### Operational workflows, administration, tracking and business reporting
 
 <img src="./assets/hero.svg" alt="Animated project header" />
 
 <p><a href="./README.md"><strong>English</strong></a> · <a href="./README.de.md">Deutsch</a> · <a href="./README.tr.md">Türkçe</a></p>
 
-<br/>
-
 <p>
-  <a href="https://github.com/tahakubilay"><img src="https://img.shields.io/badge/Portfolio-Taha%20Kubilay-181717?style=for-the-badge&logo=github" alt="Portfolio" /></a>
-  <a href="https://github.com/tahakubilay/mes-management-platform"><img src="https://img.shields.io/badge/Source-MES%20Platform-0A66C2?style=for-the-badge&logo=github" alt="Repository" /></a>
-  <img src="https://img.shields.io/badge/Status-Portfolio%20Build-7C3AED?style=for-the-badge" alt="Status" />
-  <img src="https://img.shields.io/badge/Demo-Coming%20Soon-F59E0B?style=for-the-badge" alt="Demo coming soon" />
+  <a href="https://github.com/tahakubilay"><img src="https://img.shields.io/badge/Taha%20Kubilay-GitHub-181717?style=for-the-badge&logo=github" alt="Taha Kubilay on GitHub" /></a>
+  <a href="https://github.com/tahakubilay/mes-management-platform"><img src="https://img.shields.io/badge/Repository-MES%20Platform-0A66C2?style=for-the-badge&logo=github" alt="Repository" /></a>
 </p>
-
-<br/>
-
-![Last Commit](https://img.shields.io/github/last-commit/tahakubilay/mes-management-platform?style=flat-square)
-![Repo Size](https://img.shields.io/github/repo-size/tahakubilay/mes-management-platform?style=flat-square)
-![Stars](https://img.shields.io/github/stars/tahakubilay/mes-management-platform?style=flat-square)
 
 </div>
 
 ---
 
-## ✨ At a Glance
+## Overview
 
-| | |
-|---|---|
-| 🎯 **Purpose** | Centralize operational workflows and business administration |
-| 🧩 **Focus** | Workflow management, tracking, reporting and operational visibility |
-| 🏢 **Type** | Enterprise / business management platform |
-| 🧠 **Engineering** | Business logic, data modelling, workflow design and maintainability |
-| 🔐 **Public Version** | Portfolio-safe; no production credentials or private business data |
-| 🚀 **Demo** | Synthetic-data demo planned |
+MES Management Platform is an operational management system focused on coordinating business workflows, administrative processes, tracking and reporting in one environment.
 
-> [!NOTE]
-> This repository is being prepared as a **public engineering case study**. The goal is to show how the system is designed and how the operational problem is solved — not to expose private production data.
+The platform is designed to make operational state visible and manageable across the lifecycle of a business process.
 
-## 🧭 Quick Navigation
-
-[Overview](#-overview) • [Capabilities](#-core-capabilities) • [Architecture](#-architecture) • [Engineering](#-engineering-focus) • [Demo](#-live-demo) • [Roadmap](#-portfolio-roadmap)
-
-## 🔎 Overview
-
-MES Management Platform is an end-to-end management system built around real operational workflows.
-
-Instead of treating business processes as isolated screens, the platform is designed to connect administration, tracking, operational state and reporting into one coherent management environment.
-
-### The core idea
-
-```text
-Business Activity
-      ↓
-Operational Workflow
-      ↓
-State & Tracking
-      ↓
-Management Visibility
-      ↓
-Reporting & Decisions
-```
-
-## ⚡ Core Capabilities
-
-| Area | What it solves |
-|---|---|
-| 🗂️ **Centralized Operations** | Brings operational data and workflows into one environment |
-| 🔄 **Workflow Management** | Structures repeatable business processes and state transitions |
-| 📍 **Tracking** | Keeps operational activity visible and traceable |
-| 🧑‍💼 **Administration** | Supports management and administrative workflows |
-| 📊 **Reporting** | Converts operational records into management visibility |
-| 🧱 **Business Logic** | Encodes domain rules instead of relying on manual process knowledge |
-| 🔐 **Controlled Access** | Designed with role-oriented operational access in mind |
-| 🧾 **Historical Visibility** | Preserves context for reporting, review and operational analysis |
-
-## 🏗️ Architecture
+## Core Model
 
 ```mermaid
 flowchart LR
@@ -88,16 +33,26 @@ flowchart LR
     APP --> REP[Reporting & Analytics]
     WF --> DATA[(Operational Data)]
     REP --> DATA
-    DATA --> AUDIT[History / Tracking]
+    DATA --> HISTORY[History & Tracking]
 ```
 
-The public portfolio version will expand this with the real module boundaries, API structure, database model and deployment topology once the codebase is sanitized for publication.
+## Core Capabilities
 
-## 🧠 Engineering Focus
+| Area | Purpose |
+|---|---|
+| **Centralized Operations** | Bring operational data and workflows into one environment |
+| **Workflow Management** | Structure repeatable processes and state transitions |
+| **Tracking** | Keep operational activity visible and traceable |
+| **Administration** | Support management and administrative processes |
+| **Reporting** | Turn operational records into management visibility |
+| **Business Rules** | Represent domain logic consistently |
+| **Historical Context** | Preserve context for analysis and review |
 
-The interesting part of a management platform is not building forms — it is preserving **consistency across business workflows** as the product grows.
+## Engineering Focus
 
-This project highlights work around:
+The main engineering challenge is maintaining consistency across workflows as the system grows.
+
+Key concerns include:
 
 - Domain and workflow modelling
 - Business-rule implementation
@@ -108,53 +63,9 @@ This project highlights work around:
 - Administrative UX
 - Historical tracking
 
-> [!IMPORTANT]
-> The portfolio version will use **synthetic data only**. Production credentials, private company records, API secrets and environment-specific configuration will never be published.
+## Data & Privacy
 
-## 🎬 Live Demo
-
-**Demo environment: coming soon**
-
-The public demo is planned as a safe sandbox where recruiters and engineers can explore representative workflows without accessing real operational data.
-
-Planned demo content:
-
-- Synthetic organizations and records
-- Representative operational workflows
-- Reporting views
-- Administrative screens
-- Example tracking history
-
-When the demo is deployed, this section and the badge at the top will link directly to it.
-
-## 🖼️ Product Showcase
-
-Real screenshots and a product walkthrough GIF will be added here as the public build is prepared.
-
-| Dashboard | Workflow | Reporting |
-|---|---|---|
-| 🖥️ Coming soon | 🔄 Coming soon | 📊 Coming soon |
-
-## 🛣️ Portfolio Roadmap
-
-- [x] Public repository created
-- [x] Portfolio case-study README
-- [x] Architecture overview
-- [ ] Sanitize source code
-- [ ] Document real technology stack
-- [ ] Add screenshots
-- [ ] Add animated product walkthrough
-- [ ] Add database / domain model
-- [ ] Publish synthetic demo
-- [ ] Add deployment architecture
-
-## 💡 Why This Project Matters
-
-This project represents the kind of software where value comes from understanding **how a business actually operates** and turning that knowledge into a maintainable system.
-
-It demonstrates experience across:
-
-`Full-Stack Engineering` · `Enterprise Software` · `Workflow Design` · `Business Logic` · `Data Modelling` · `Reporting`
+The public repository does not expose production credentials, private company records, internal API secrets or environment-specific confidential configuration.
 
 ---
 
@@ -162,8 +73,6 @@ It demonstrates experience across:
 
 ### Built by [Taha Kubilay](https://github.com/tahakubilay)
 
-**Software Engineer · Full-Stack Systems · Enterprise Software · AI & Automation**
-
-[⬆ Back to top](#mes-management-platform)
+`Enterprise Software` · `Workflow Design` · `Business Logic` · `Reporting` · `Full-Stack Engineering`
 
 </div>
