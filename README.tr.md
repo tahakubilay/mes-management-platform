@@ -4,7 +4,7 @@
 
 ### Operasyonel workflow, yönetim, takip ve iş raporlaması
 
-<img src="./assets/hero.svg" alt="Animasyonlu proje başlığı" />
+<img src="./assets/hero.svg" alt="MES proje görsel kimliği" />
 
 <p><a href="./README.md">English</a> · <a href="./README.de.md">Deutsch</a> · <a href="./README.tr.md"><strong>Türkçe</strong></a></p>
 
